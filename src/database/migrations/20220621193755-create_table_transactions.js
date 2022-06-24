@@ -18,7 +18,7 @@ module.exports = {
           allowNull: false
         },
         type: {
-          type: Sequelize.DataTypes.INTEGER(10).UNSIGNED,
+          type: Sequelize.DataTypes.STRING(10),
           allowNull: false
         },
         amount: {
